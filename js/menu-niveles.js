@@ -8,6 +8,8 @@ function escribeNiveles() {
       ">Nivel " +
       (indice + 1) +
       "</button>";
+
+      
     menuNiveles.appendChild(controlNivel);
   });
 }

@@ -6,7 +6,7 @@ function descubrir() {
   );
 
   if (totalDescubiertas.length > 1) {
-    return;
+    return this.classList.add("descubierta");;
   }
   //Averigua para que sirve el metodo THIS
   this.classList.add("descubierta");
@@ -18,7 +18,7 @@ function descubrir() {
   }
   //pista aca falta ubicar la palabra descubiertas para invicar la funcion de las cartas
   comparar(descubiertas);
-  actualizaContador();
+  actualizaContador(descubiertas);
   tarjetasPendientes = document.querySelectorAll(".tarjeta:not(.acertada)");
   if (tarjetasPendientes.length === 0) {
     setTimeout(finalizar, 1000);

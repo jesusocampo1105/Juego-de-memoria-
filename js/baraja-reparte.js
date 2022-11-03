@@ -31,3 +31,4 @@ function reparteTarjetas(lasTarjetas) {
     mesa.appendChild(tarjeta);
   });
 }
+
