@@ -8,7 +8,7 @@ function barajaTarjetas(lasTarjetas) {
   });
 
   //pista por aca falta un return (Que regresa la función)
-  resultado;
+  return resultado;
 }
 
 function reparteTarjetas(lasTarjetas) {

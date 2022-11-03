@@ -7,7 +7,7 @@ function iniciaCronometro() {
   function actualizaContador() {
     segundos--;
     if (segundos < 0) {
-      segundos = ;
+      segundos = 60;
       minutos--;
     }
     if (minutos < 0) {
